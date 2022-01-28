@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <link rel="stylesheet" href="assets/css/card.css" />
+    <title>Github Card</title>
+  </head>
+  <body>
+    <h2 class="github-head">Github profile card generator</h2>
+    <section class="user-input-section">
+      <input
+        type="text"
+        id="github-user-input"
+        placeholder="github username"
+        class="github-user-input"
+      />
+      <button class="github-btn" id="generate-profile">Generate</button>
+    </section>
+    <section>
+      <div
+        id="github-profile-card"
+        class="github-profile-card"
+        github-user="karn21"
+      >
+        <div class="github-profile-card-top">
+          <img src="" id="github-avatar" class="github-avatar" />
+        </div>
+        <div class="github-profile-card-body">
+          <a href="" class="github-name" id="github-name" target="_blank"> </a>
+          <span id="github-user-name"> </span>
+          <div class="github-bio" id="github-bio"></div>
+
+          <div class="github-stats">
+            <div class="github-stat">
+              <a href="" target="_blank">
+                <span id="github-followers"> </span>
+                Followers
+              </a>
+            </div>
+            <div class="github-stat">
+              <a href="" target="_blank" id="following-link">
+                <span id="github-following"> </span>
+                Following
+              </a>
+            </div>
+            <div class="github-stat">
+              <a href="" target="_blank">
+                <span id="github-repos"> </span>
+                Repositories
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="assets/js/card.js"></script>
+  </body>
+</html>
